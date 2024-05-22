@@ -9,47 +9,47 @@ Sistem Informasi Keuangan merupakan aplikasi berbasis website yang ditujukan unt
 ## Installation
 Laravel 10.x requires a minimum PHP version of 8.1 to run.
 
-Git Clone:
+### Git Clone:
 ```sh
 git clone https://github.com/putragstn/sistem-informasi-keuangan.git
 ```
 
-Change Directory Into Project:
+### Change Directory Into Project:
 ```sh
 cd sistem-informasi-keuangan
 ```
 
-Install Composer Dependencies, to install Vendor file Laravel:
+### Install Composer Dependencies, to install Vendor file Laravel:
 ```sh
 composer install
 ```
 
-Install NPM dependencies
+### Install NPM dependencies
 ```sh
 npm install
 ```
 
-Copy .env file:
+### Copy .env file:
 ```sh
 cp .env.example .env
 ```
 
-Generate an app encryption key:
+### Generate an app encryption key:
 ```sh
 php artisan key:generate
 ```
 
-Migrate the database:
+### Migrate the database:
 ```sh
 php artisan migrate
 ```
 
-Seed the database (optional):
+### Seed the database (optional):
 ```sh
 php artisan db:seed
 ```
 
-Run Laravel:
+### Run Laravel:
 ```sh
 php artisan serve
 ```
