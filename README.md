@@ -24,6 +24,11 @@ Install Composer Dependencies, to install Vendor file Laravel:
 composer install
 ```
 
+Install NPM dependencies
+```sh
+npm install
+```
+
 Copy .env file:
 ```sh
 cp .env.example .env
