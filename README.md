@@ -14,7 +14,41 @@ Git Clone:
 git clone https://github.com/putragstn/sistem-informasi-keuangan.git
 ```
 
-Composer Update:
+Change Directory Into Project:
 ```sh
-composer update
+cd sistem-informasi-keuangan
+```
+
+Install Composer Dependencies, to install Vendor file Laravel:
+```sh
+composer install
+```
+
+Copy .env file:
+```sh
+cp .env.example .env
+```
+
+Generate an app encryption key:
+```sh
+php artisan key:generate
+```
+
+Migrate the database:
+```sh
+php artisan migrate
+```
+
+Seed the database (optional):
+```sh
+php artisan db:seed
+```
+
+Run Laravel:
+```sh
+php artisan serve
+```
+or
+```sh
+php artisan ser
 ```
